@@ -1,7 +1,10 @@
+import Header from "./feature/Header";
 
 function App() {
   return (
-    <div></div>
+    <>
+      <Header />
+    </>
   );
 }
 
