@@ -10,7 +10,6 @@ import {
   MovieYear,
   MovieGenre,
   MovieRate,
-  StarIcon,
   Score,
   Votes,
   PageInfoStyled,
@@ -28,7 +27,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>
@@ -39,7 +38,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>
@@ -50,7 +49,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>
@@ -61,7 +60,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>
@@ -74,7 +73,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>{" "}
@@ -85,7 +84,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>{" "}
@@ -96,7 +95,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>
@@ -107,7 +106,7 @@ const Movies = () => (
         <MovieYear>2024</MovieYear>
         <MovieGenre>Gatunek</MovieGenre>
         <MovieRate>
-          <StarIcon src={star} alt="" />
+          <img src={star} alt="" />
           <Score>7,8</Score>
           <Votes>35 votes</Votes>
         </MovieRate>

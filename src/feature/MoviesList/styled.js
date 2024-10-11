@@ -52,7 +52,6 @@ export const MovieRate = styled.div`
   align-items: center;
 `;
 
-export const StarIcon = styled.img``;
 export const Score = styled.p`
   font-size: 16px;
   line-height: 1.5;
