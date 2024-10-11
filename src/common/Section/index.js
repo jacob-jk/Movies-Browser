@@ -1,9 +1,9 @@
 import { Wrapper } from "../../feature/MoviesList/styled";
 
-const Section = ({ tittle, body }) => {
+const Section = ({ title, body }) => {
   return (
     <Wrapper>
-      <h1>{tittle}</h1>
+      <h1>{title}</h1>
       {body}
     </Wrapper>
   );

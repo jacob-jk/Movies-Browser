@@ -6,7 +6,8 @@ function App() {
   return (
     <>
       <Header />
-      <Section tittle="Popular movies" body={<Movies />} />
+      <Section title="Popular movies" body={<Movies />} />
+      <Section title="Popular movies" body={<Movies />} />
     </>
   );
 }
