@@ -7,7 +7,6 @@ function App() {
     <>
       <Header />
       <Section title="Popular movies" body={<Movies />} />
-      <Section title="Popular movies" body={<Movies />} />
     </>
   );
 }
