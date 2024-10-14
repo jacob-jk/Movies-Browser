@@ -1,9 +1,9 @@
-import { Wrapper } from "../../feature/MoviesList/styled";
+import { Header, Wrapper } from "./styled";
 
 const Section = ({ title, body }) => {
   return (
     <Wrapper>
-      <h1>{title}</h1>
+      <Header>{title}</Header>
       {body}
     </Wrapper>
   );
