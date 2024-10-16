@@ -12,6 +12,10 @@ export const StyledErrorContainer = styled.div`
     margin-top: 180px;
 
     @media(max-width:1080px){
+        margin-top: 100px;
+    }
+
+    @media(max-width:500px){
         margin-top: 70px;
     }
 `;
@@ -25,6 +29,11 @@ export const StyledErrorIcon = styled.img`
     opacity: 0px;
     
     @media(max-width: 1080px){
+        width: 90px;
+        height: 90px;
+    }
+
+    @media(max-width: 500px){
         width: 60px;
         height: 60px;
     }
@@ -39,7 +48,12 @@ export const StyledErrorHeader = styled.h1`
     line-height: 43.2px;
 
     @media(max-width:1080px){
-        font-size: 13px;
+        font-size: 26px;
+        height: 22px;
+    }
+
+    @media(max-width:500px){
+        font-size: 17px;
         height: 22px;
     }
 `;
@@ -54,8 +68,12 @@ export const StyledErrorParagraph = styled.p`
     line-height: 28.6px;
 
     @media(max-width:1080px){
-        font-size: 12px;
+        font-size: 18px;
         width: auto;
+    }
+
+    @media(max-width:1080px){
+        font-size: 13px;
     }
 `;
 
@@ -71,7 +89,12 @@ export const HomepageButton = styled.a`
     color: #fff;
 
     @media(max-width:1080px){
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    @media(max-width:500px){
         font-size: 11px;
-        line-height: 8px;
+        line-height: 10px;
     }
 `;
