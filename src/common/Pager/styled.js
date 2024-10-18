@@ -14,6 +14,11 @@ export const PagerButton = styled.button`
   padding: 0 10px;
   display: flex;
   align-items: center;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin: 6px 2px;
+    padding: 0 5px;
+  }
 `;
 
 export const PagerText = styled.div`
@@ -25,12 +30,20 @@ export const PagerText = styled.div`
 export const PageInfo = styled.div`
   margin: 0 16px;
   display: flex;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin: 0 8px;
+  }
 `;
 
 export const PageInfoStyled = styled.p`
   color: #d6e4ff;
   font-size: 16px;
   font-weight: 400;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 12px;
+  }
 
   ${({ $number }) =>
     $number &&
