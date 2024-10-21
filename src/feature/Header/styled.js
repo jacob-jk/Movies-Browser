@@ -23,7 +23,7 @@ export const WrapperPrimary = styled.div`
 
     @media(max-width: ${({ theme }) => theme.breakpoint.tabletMax}px) {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 50% 50%;
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
