@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     height: 48px;
-    max-width: 432px;
+    width: 432px;
     background: ${({ theme }) => theme.color.white};
     border-radius: 34px;
     border: 1px solid ${({ theme }) => theme.color.mystic};
@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 
     @media(max-width: ${({ theme }) => theme.breakpoint.tabletMax}px) {
         height: 40px;
-        max-width: 100%;
+        width: 100%;
         padding: 14px 16px;
     }
 `;
