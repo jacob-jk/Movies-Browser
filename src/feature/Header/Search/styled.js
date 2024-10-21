@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 
     @media(max-width: ${({ theme }) => theme.breakpoint.tabletMax}px) {
         height: 40px;
-        width: 100%;
+        max-width: 100%;
         padding: 14px 16px;
     }
 `;
