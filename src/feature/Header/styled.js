@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
     background: ${({ theme }) => theme.color.woodSmoke};
     color: ${({ theme }) => theme.color.white};
+`;
+
+export const WrapperPrimary = styled.div`
+    max-width: 1368px;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
