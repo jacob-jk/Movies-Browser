@@ -50,8 +50,6 @@ export const PeoplePoster = styled.img`
 export const PeopleName = styled.div`
   font-weight: 500;
   font-size: 22px;
-  margin: 0px 0px 8px;
-
   text-align: center;
   line-height: 1.3;
   overflow-wrap: anywhere;
