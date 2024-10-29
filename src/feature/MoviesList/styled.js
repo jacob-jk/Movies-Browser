@@ -43,7 +43,6 @@ export const Poster = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  margin: 0px 0px 16px;
   border-radius: 5px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
