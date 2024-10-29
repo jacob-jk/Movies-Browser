@@ -42,7 +42,7 @@ export const PageInfo = styled.div`
 `;
 
 export const PageInfoStyled = styled.p`
-  color: #d6e4ff;
+  color: ${({ theme }) => theme.color.waterloo};
   font-size: 16px;
   font-weight: 400;
 
