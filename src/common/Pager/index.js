@@ -1,20 +1,23 @@
 import {
   PagerWrapper,
   PagerButton,
+  PagerIconRotated,
   PageInfo,
   PageInfoStyled,
   PagerText,
 } from "./styled";
+import prev from "../../images/prev.svg";
+import next from "../../images/next.svg";
 
 const Pager = () => (
   <>
     <PagerWrapper>
       <PagerButton>
-        <div>≪</div>
+        <PagerIconRotated src={prev} alt="" />
         <PagerText>First</PagerText>
       </PagerButton>
       <PagerButton>
-        <div>＜</div>
+        <PagerIconRotated src={prev} alt="" />
         <PagerText>Previous</PagerText>
       </PagerButton>
       <PageInfo>
@@ -25,11 +28,11 @@ const Pager = () => (
       </PageInfo>
       <PagerButton>
         <PagerText>Next</PagerText>
-        <div>＞</div>
+        <img src={next} alt="" />
       </PagerButton>
       <PagerButton>
         <PagerText>Last</PagerText>
-        <div>≫</div>
+        <img src={next} alt="" />
       </PagerButton>
     </PagerWrapper>
   </>

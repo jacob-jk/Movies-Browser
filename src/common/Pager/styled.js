@@ -14,11 +14,16 @@ export const PagerButton = styled.button`
   padding: 0 10px;
   display: flex;
   align-items: center;
+  gap: 8px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin: 6px 2px;
     padding: 0 5px;
   }
+`;
+
+export const PagerIconRotated = styled.img`
+  transform: rotate(180deg);
 `;
 
 export const PagerText = styled.div`
